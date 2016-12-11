@@ -1,0 +1,108 @@
+*{
+	margin: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin-bottom: 20px;
+}
+
+p{
+	color: white;
+	font-family: inherit;
+	text-align: center;
+	font-size: 20px;
+	padding-left: 65px;
+	padding-top: 30px;
+}
+a{
+	text-align: center;
+}
+.glow {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.glow:hover {
+    box-shadow: 0 0 4px 4px #ffffff;
+ }
+
+ footer{
+ 	text-align: center;
+ }
+
+html,body{
+	height: 100%;
+	width: 100%;
+	background-image: url(arc.jpg);
+	background-color: black;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.sect{
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 110%;
+	background-attachment: fixed;
+}
+
+.subsect{
+	height: 30%;
+	background-color: black;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.front{
+	
+	color: white;
+	font-family: arial;
+	font-weight: 5px;
+	padding-top: 200px;
+	text-align: right;
+	font-size: 80px;
+	
+}
+
+.front2{
+	color: white;
+	font-family: arial;
+	font-weight: 5px;
+	text-align: center;
+	padding-right: 80px;
+	padding-top: 30px;
+	font-size: 50px;
+}
+
+.sect-two{
+	background-image: url("robo.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.sect-one{
+	background-image: url(mini-robowars.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.sect-three{
+	background-image: url(game.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.sect-four{
+	background-image: url(assassins-creed-logo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
