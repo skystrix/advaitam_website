@@ -29,6 +29,19 @@ a{
     box-shadow: 0 0 4px 4px #ffffff;
  }
 
+.text{
+	color: red;
+	float: right;
+}
+.text2{
+	font-size: 40px;
+	color: white;
+	font-family: sans-serif;
+	padding-right: 20px; 
+}
+.text3{
+	text-align: right;
+}
  footer{
  	text-align: center;
  }
@@ -59,7 +72,8 @@ html,body{
 }
 
 .front{
-	
+	-webkit-animation-duration:2s;
+	-webkit-animation-delay:0.5s;
 	color: white;
 	font-family: arial;
 	font-weight: 5px;
